@@ -1,15 +1,15 @@
-import React from 'react';
-import { Provider as ReduxProvider } from 'react-redux';
+import React from "react";
 
-import { HomeView } from './views';
-import './App.css';
-import store from './redux';
+import { HomeView } from "./components";
+import "./App.css";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 function App() {
   return (
-    <ReduxProvider store={store}>
+    <Provider store={store}>
       <HomeView />
-    </ReduxProvider>
+    </Provider>
   );
 }
 

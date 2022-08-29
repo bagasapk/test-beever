@@ -1,0 +1,4 @@
+export const GET_QUOTE_SUCCESS = "GET_QUOTE_SUCCESS";
+export const GET_QUOTE_FAILURE = "GET_QUOTE_FAILURE";
+export const ADD_FAVORITE = "ADD_FAVORITE";
+export const MY_QUOTE = "MY_QUOTE";
